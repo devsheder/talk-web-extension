@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "Native messaging",
+    "version": "1.0",
+    "description": "Native messaging",
+    "icons": {
+        "48": "icons/me.jpg"
+    },
+    "applications": {
+        "gecko": {
+            "id": "native-messaging@sfeir.com"
+        }
+    },
+    "permissions": [
+        "nativeMessaging"
+    ],
+    "background": {
+        "scripts": [
+            "native-messaging-background.js"
+        ]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "index.js"
+            ]
+        }
+    ]
+}
