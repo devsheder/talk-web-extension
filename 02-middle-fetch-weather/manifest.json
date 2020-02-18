@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Fetch weather",
+    "version": "1.0",
+    "description": "Adds a block to display weather on any web page",
+    "icons": {
+        "48": "icons/me.jpg"
+    },
+    "applications": {
+        "gecko": {
+            "id": "lasselle.a@sfeir.com-fetch-weather"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "weather.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "https://openweathermap.org/data/*"
+    ]
+}
