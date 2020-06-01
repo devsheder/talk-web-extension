@@ -1,0 +1,9 @@
+{
+    "name": "my_native_app_chrome",
+    "description": "My Application",
+    "path": "/Users/adrienlasselle/projects/talk-web-extension/demos/04-native-messaging/application/app.py",
+    "type": "stdio",
+    "allowed_origins": [
+        "chrome-extension://fiaanbkdggpcbbjeealoiidmkdnoldkk/"
+    ]
+}

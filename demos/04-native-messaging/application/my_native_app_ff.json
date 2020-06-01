@@ -1,7 +1,7 @@
 {
     "name": "my_native_app_ff",
     "description": "My Application",
-    "path": "/Users/adrienlasselle/projects/talk-web-extension/03-hard-native-messaging/application/app.py",
+    "path": "/Users/adrienlasselle/projects/talk-web-extension/demos/04-native-messaging/application/app.py",
     "type": "stdio",
     "allowed_extensions": [
         "native-messaging@sfeir.com"
