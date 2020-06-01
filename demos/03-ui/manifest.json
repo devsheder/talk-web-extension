@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Web extension with UI",
+  "version": "1.0",
+  "description": "Web extension with UI",
+  "icons": {
+    "48": "icons/me.jpg"
+  },
+  "applications": {
+    "gecko": {
+      "id": "lasselle.a@sfeir.com-fetch-weather"
+    }
+  },
+  "browser_action": {
+    "default_icon": {
+      "32": "icons/me.jpg"
+    },
+    "default_title": "Hi",
+    "default_popup": "popup.html"
+  }
+}
