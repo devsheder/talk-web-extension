@@ -1,22 +1,27 @@
 # Web Extension Talk
-This repo stores my talk demos
+
+This repo stores a talk about web extension (prez and demos)
 
 ## Demo 01 - Borderify
+
 Adds red border around Google search filed.
 
 Works on both Chrome and Firefox.
 
 ## Demo 02 - Weather
+
 Adds a div on the top left corner to show the weather on all web pages.
 
 Works on both Chrome and Firefox.
 
 ## Demo 03 - UI
-Provides an UI when clicked on extension button in toolbar.
+
+Provides an UI when clicked on extension button in toolbar, and option in context menu on all web pages.
 
 Works on both Chrome and Firefox.
 
 ## Demo 04 - Native messaging
+
 Gets the processor temperature
 
 The Python script `app.py` only works on MacOS.
