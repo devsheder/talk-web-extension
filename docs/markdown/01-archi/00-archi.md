@@ -38,6 +38,9 @@
       "matches": ["url1", "url2"],
       "js": ["myext.js"]
     }
+  ],
+  "permissions": [
+    "webRequest"
   ]
 }
 ```
