@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Web extension with UI",
   "icons": {
-    "48": "icons/me.jpg"
+    "48": "icons/me.png"
   },
   "applications": {
     "gecko": {
@@ -13,9 +13,13 @@
   },
   "browser_action": {
     "default_icon": {
-      "32": "icons/me.jpg"
+      "32": "icons/me.png"
     },
     "default_title": "Hi",
     "default_popup": "popup.html"
-  }
+  },
+  "background": {
+    "scripts": ["context-menu.js"]
+  },
+  "permissions": ["contextMenus"]
 }

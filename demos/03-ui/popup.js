@@ -1,5 +1,5 @@
 const log = (...args) => {
-  console.log('Weather extension >', ...args);
+  console.log('popup.js > ', ...args);
 };
 
 log('start');
