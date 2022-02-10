@@ -28,14 +28,14 @@
     "cpx": "^1.5.0",
     "highlight.js": "^9.18.1",
     "live-server": "^1.2.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "parallelshell": "3.0.1",
     "lit-html": "^1.2.1",
     "reveal.js": "^3.9.2",
     "sfeir-school-theme": "^2.0.1"
   },
   "devDependencies": {
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "snowpack": "^1.6.0"
   },
   "snowpack": {
